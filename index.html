@@ -20,7 +20,7 @@
 <div id="body">
 	<div id="container"></div>
 	<div class="control left">
-		<a id="banner" href="https://luyaoguagua.top/">二维码网页生成器</a>
+		<a id="banner" href="https://luyaoguagua.top/">瓜瓜二维码生成器</a>
 		<hr/>
 		<label for="render">渲染模式 RENDER MODE</label>
 		<select id="render">
@@ -51,9 +51,6 @@
 		<input id="quiet" type="range" value="1" min="0" max="4" step="1" />
 		<label for="radius">圆角半径 CORNER RADIUS (not in Opera):</label>
 		<input id="radius" type="range" value="50" min="0" max="50" step="10" />
-		<hr>
-		<a id="download" download="瓜瓜二维码.jpg">下载二维码</a>
-		<hr/>
 		<!-- <hr/> -->
 		<!-- <a id="download" download="qrcode.png">DOWNLOAD</a> -->
 	</div>
@@ -80,6 +77,8 @@
 		<input id="image" type="file" />
 		<label for="imagesize">图像大小 IMAGE SIZE:</label>
 		<input id="imagesize" type="range" value="13" min="1" max="30" step="1" />
+		<label for="downloade">点击下方按钮保存二维码</label>
+		<a id="download" download="瓜瓜二维码.jpg">保存二维码</a>
 	</div>
 	<img id="img-buffer" src="dummy.png" />
 	<div style="text-align:center;clear:both"></div>
